@@ -1,4 +1,3 @@
-
 def remove_duplicates(input_list):
     # Забераєм однакові дані
     return list(set(input_list))
