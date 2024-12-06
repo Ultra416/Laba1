@@ -12,7 +12,7 @@ def send_welcome(message):
     bot.reply_to(message, "Привіт! Я ехо-бот. Напиши мені щось, і я повторю!")
 
 # Обробляємо будь-які текстові повідомлення
-@bot.message_handler(func=lambda message: True)
+@bot.message_handler( message: True)
 def echo_all(message):
     bot.reply_to(message, message.text)
 
