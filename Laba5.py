@@ -4,7 +4,7 @@ import string
 import json
 
 # Токен вашого бота
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "7274151929:AAHkjqiAnVMEL3WMI-FSzGS1nMv4maztn1k"
 bot = telebot.TeleBot(TOKEN)
 
 # Файл для зберігання паролів
