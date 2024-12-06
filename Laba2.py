@@ -19,7 +19,7 @@ lst_notnull = []
 max_value = -1
 lst_count_types = [count_set, count_bool, count_tuple, count_list, count_float, count_str, count_int] # список лічильників
 lst_name_type = [set, tuple, list, bool, float, str, int] # список назв
-lst = [name, lastname, age]
+lst = [name, last_name, age]
 for item in lst: # цикл що рахує кількість типів
     if type(item) == int:
         print(lst_count_types[-1])
